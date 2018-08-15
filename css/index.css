@@ -1,0 +1,504 @@
+/*
+* @Author: MAIBENBEN
+* @Date:   2018-08-01 08:36:03
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-13 14:06:45
+*/
+
+
+/*  " * "通用选择器：选中页面中所有的标签 */
+*{
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.hot{
+	width: 100%;
+	height: 622px;
+	padding-top: 35px;
+}
+.container{
+	width: 1200px;
+	height: 100%;
+	/* 块元素在块元素中水平居中：外边距 */
+	margin: 0 auto 0 auto;
+}
+/* 后代选择器:父级元素的选择器 子级元素选择器; */
+.top{
+	width: 100%;
+	height: 60px;
+	background: #f7f7f5;
+}
+.hot .bottom{
+	width: 100%;
+	height: 514px;
+	background: #f7f7f5;
+}
+.top .title{
+	width: 647px;
+	height: 100%;
+	background: #f7f7f5;
+	float: left;
+	color: #333;
+	font-size: 26px;
+	text-align: right;
+	line-height: 60px;
+}
+.hot .top .more{
+	width: 46px;
+	height: 100%;
+	float: right;
+
+}
+.hot .top .more a{
+	color: #333;
+	font-size: 12px;
+	/* 文字的修饰：none就是没有修饰 */
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+}
+.hot .bottom .list{
+	width: 394px;
+	height: 510px;
+	background: white;
+	float: left;
+	margin-right: 9px;
+}
+.hot .bottom .last{
+	margin-right: 0;
+}
+.hot .bottom .list img{
+	width: 230px;
+	height: 230px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+/* 宽度不设置默认与父级元素宽度一致 */
+/* 高度不设置默认会由内容自动撑开 */
+.hot .bottom .list h3{
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+.hot .bottom .list p{
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+}
+.hot .bottom .list .money{
+	margin:60px auto 0;
+	text-align: center;
+	color: red;
+	font-size: 20px;
+}
+body{
+	background:#f7f7f5;
+}
+.phone{
+	width: 100%;
+	/* height: 847px; */
+	margin-top: 15px;
+}
+.phone .top{
+	width: 100%;
+	height: 60px;
+}
+.phone .bottom{
+	width: 100%;
+	height: 771px;
+	background:#f7f7f5;
+}
+.phone .bottom .list{
+	width: 293px;
+	height: 384px;
+	background: white;
+	float: left;
+	margin-right: 9px;
+	margin-bottom: 9px;
+}
+.phone .bottom .list:nth-child(1){
+	width: 595px;
+}
+.phone .bottom .list:nth-child(3){
+	width: 294px;
+	margin-right: 0;
+}
+.phone .bottom .list:nth-child(7){
+	width: 294px;
+	margin-right: 0;
+}
+
+
+.phone .bottom .list img{
+	width: 172px;
+	height: 172px;
+	display: block;
+	margin: 43px auto;
+}
+.phone .bottom .list .frist-pic{
+	width: 100%;
+	height: 384px;
+	display: block;
+	margin-top: 0;
+}
+.phone .bottom .list h3{
+	font-size: 15px;
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+.phone .bottom .list p{
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+	font-size: 13px;
+}
+.phone .bottom .list .money{
+	margin:40px auto 0;
+	text-align: center;
+	color: red;
+	font-size: 15px;
+}
+.phone .top .more{
+	width: 46px;
+	height: 100%;
+	float: right;
+
+}
+.phone .top .more a{
+	color: #333;
+	font-size: 12px;
+	/* 文字的修饰：none就是没有修饰 */
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+}
+.head{
+	width: 100%;
+	height: 43px;
+	background: #2F2F2F;
+}
+.head .logo{
+	width: 85px;
+	height: 100%;
+	float: left;
+}
+.head .text{
+	width: 673px;
+	height: 100%;
+	float: left;
+	margin-left: 156px;
+}
+.head .picture{
+	width: 106px;
+	height: 100%;
+	float: left;
+	margin-left: 154px;
+}
+.head a{
+	line-height: 43px;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	margin-right: 34px;
+}
+.banner{
+	width: 100%;
+	height: 524px;
+
+	background-image: url('../img/13.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.banner .container{
+	position: relative;
+}
+.banner .table{
+	width: 201px;
+	height: 483px;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	background-color: #B0AFE8;
+}
+.banner .table .list{
+	width: 201px;
+	height: 62px;
+}
+.banner .table .list:nth-child(1){
+	margin-top: 50px;
+}
+.banner .table .list a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 34px;
+	text-decoration: none;
+	box-sizing: border-box;
+	color: black;
+	font-size: 13px;
+	line-height: 27px;
+	position: relative;
+}
+.banner .table .list a i{
+	font-style: normal;
+	position: absolute;
+	top: 0;
+	right: 28px;
+}
+.banner .spot{
+	width: 252px;
+	height: 20px;
+	position: absolute;
+	bottom: 13px;
+	left: 550px;
+}
+.banner .spot .dot{
+	width: 42px;
+	height: 2.5px;
+	float: left;
+	margin: auto 0;
+	background-color: #F3F4F8;
+	margin-right: 8px;
+}
+.banner .spot .dot:nth-child(2){
+	height: 5px;
+	background-color: white;
+}
+
+.act{
+	width: 100%;
+	height:139px; 
+	margin-top: 9px;
+}
+.act .picture{
+	width: 294px;
+	height: 139px;
+	float: left;
+	margin-right: 6px;
+}
+.act img{
+	width: 294px;
+	height: 139px;
+}
+.parts{
+	width: 100%;
+	margin-top: 55px;
+	overflow: hidden;
+}
+.parts .top{
+	width: 100%;
+	height: 60px;
+}
+.parts .top .more a{
+	color: #333;
+	font-size: 12px;
+	/* 文字的修饰：none就是没有修饰 */
+	text-decoration: none;
+	line-height: 60px;
+}
+.parts .top .more{
+	width: 195px;
+	height: 100%;
+	float: right;
+	text-align: right;
+}
+.parts .bottom .list h3{
+	font-size: 15px;
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+.parts .bottom .list p{
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+	font-size: 13px;
+}
+.parts .bottom .list .money{
+	margin:40px auto 0;
+	text-align: center;
+	color: red;
+	font-size: 15px;
+}
+.parts .bottom .list img{
+	width: 172px;
+	height: 172px;
+	display: block;
+	margin: 43px auto;
+}
+.parts .bottom{
+	width: 100%;
+	height: 835px;
+	float: left;
+}
+.parts .bottom .list{
+	width: 293px;
+	height: 384px;
+	background: white;
+	float: left;
+	margin-right: 9px;
+	margin-bottom: 9px;
+}
+.parts .bottom .list:nth-child(4)
+{
+	margin-right: 0;
+}
+.parts .bottom .list:nth-child(8)
+{
+	margin-right: 0;
+}
+footer{
+	width: 100%;
+	background: white;	
+}
+footer .top{
+	width: 100%;
+	height:100px;
+	border-bottom: 1px solid #DEDEDE;
+	margin-top: 35px;
+	overflow: hidden;
+	background: white;
+}
+footer .top ul{
+	width: 1200px;
+	height: 90px;
+	margin-top: 10px;
+	border-bottom: 1px solid #DEDEDE;
+}
+footer .top ul li{
+	width: 300px;
+	height: 100%;
+	float: left;
+	position: relative;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer .top ul li a{
+	color: black;
+	font-size: 23px;
+	float: left;
+}
+footer .top ul li a .icon1{
+	width: 23px;
+	height: 28px;
+	float: left;
+	background-image: url('../img/shop.png');
+	background-position:0 -41px;
+}
+.icon2{
+	width: 23px;
+	height: 28px;
+	float: left;
+	background-image: url('../img/shop.png');
+	background-position:-35px -41px;
+}
+.icon3{
+	width: 23px;
+	height: 28px;
+	float: left;
+	background-image: url('../img/shop.png');
+	background-position:-35px -4px;
+}
+.icon4{
+	width: 23px;
+	height: 28px;
+	float: left;
+	background-image: url('../img/shop.png');
+	background-position:0 -4px;
+}
+footer .center{
+	width: 100%;
+	height: 331px;
+	overflow: hidden;
+	border-bottom: 1px solid #DEDEDE;
+}
+footer .center .left{
+	width: 1000px;
+	height: 100%;
+	float: left;
+	padding-top: 72px;
+}
+footer .center .left dl{
+	width: 187px;
+	height:168px;
+	float: left;
+	font-size: 12px;
+}
+footer .center .left dl dt{
+	margin-bottom: 22px;
+}
+dd{
+	margin-bottom: 4px;
+}
+footer .container .center .right{
+	width: 156px;
+	height: 100%;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.floud{
+	width: 38px;
+	height: 28px;
+	background: url('../img/yun.png');
+	background-size: cover;
+	margin-right: 10px;
+	margin-left: 11px;
+}
+footer .container .center .right .first{
+	width: 156px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 22px;
+	color: #008DDC;
+	margin-bottom: 17px;
+}
+footer .container .center .right p{
+	text-align: right;
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 5px;
+}
+footer .container .center .right i{
+	text-align: right;
+	font-size: 12px;
+	color: #C7B1BC;
+}
+footer .container .bottom{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+}
+footer .container .bottom p img{
+	width: 18px;
+	height: 18px;
+}
+footer .container .bottom p{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+footer .container .bottom .right{
+	width: 163px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .container .bottom .right p{
+	font-size: 12px;
+}
